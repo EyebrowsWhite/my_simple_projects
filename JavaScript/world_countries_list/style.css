@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+.top-div {
+    position: relative;
+    height: 600px;
+    color: white;
+    background-color: rgba(120, 150, 255, 0.3);
+}
+.top-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url("./images/globe-2.jpg");
+    filter: blur(1px);
+    z-index: -1;
+    background-size: cover;
+    background-position: 50% 55%;
+}
+
+h1,h2,p,.button-div,.input {
+    text-align: center;
+}
+h1 {
+    padding-top: 150px;
+    padding-bottom: 5px;
+    letter-spacing: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 550;
+}
+.description {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.letter {
+    color: red;
+}
+.number {
+    color: limegreen;
+}
+
+.btn-start, .btn-any, .btn-sort {
+    letter-spacing: -1PX;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 2px;
+    background-color: #bf80ff;
+    /* background-color: #6600cc; */
+    outline-style: none;
+}
+.btn-press {
+    letter-spacing: -1PX;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 2px;
+    /* background-color: #bf80ff; */
+    background-color: #6600cc;
+    outline-style: none;
+}
+
+.input {
+    padding-top: 15px;
+}
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+    outline-style: none;
+    border: none;
+}
+
+.bottom-div {
+    background-color: Beige;
+    display: flex;
+    justify-content: center;
+}
+.show-div {
+    margin-top: 100px;
+    width: 1500px;
+    /* background-color: teal; */
+    display: grid;
+    grid-template-columns: repeat(6, 16.66%);
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.country-info {
+    background-image: url('./images/map_image.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    /* border: 2px solid rgba(0, 0, 0, 0.1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country-info p {
+    /* color: white; */
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* height: 150px; */
+    /* width: 152px; */
+    /* border-radius: 10px; */
+
+}

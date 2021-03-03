@@ -1,0 +1,64 @@
+body {
+    background-color: #f0f0f0;
+}
+
+h1,.subtitle,.button-div,.p-description,.l-description {
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+    font-family: "Droid Sans Mono";
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 25px;
+    margin-top: 50px;
+}
+.subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-div {
+    background-color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+button {
+    outline-style: none;
+    margin-top: 30px;
+    padding: 8px;
+    border: none;
+    background-color: orange;
+}
+.l-button {
+    margin-left: 50px;
+}
+.p-description,.l-description {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.l-description {
+    display: none;
+}
+
+.show-div {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 45px;
+}
+.p-div,.l-div {
+    display: grid;
+    grid-template-columns: 210px 760px 100px;
+    align-items: center;
+}
+.l-div {
+    display: none;
+}
+.bar {
+    background-color: orange;
+    border-radius: 5px;
+    height: 35px;
+}
